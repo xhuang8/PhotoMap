@@ -99,7 +99,7 @@ class PhotoMapViewController: UIViewController, UIImagePickerControllerDelegate,
     func imagePickerController(_ picker: UIImagePickerController,
                                didFinishPickingMediaWithInfo info: [String : Any]) {
         // Get the image captured by the UIImagePickerController
-        let originalImage = info[UIImagePickerControllerOriginalImage] as! UIImage
+        // originalImage = info[UIImagePickerControllerOriginalImage] as! UIImage
         let editedImage = info[UIImagePickerControllerEditedImage] as! UIImage
         // Do something with the images (based on your use case)
         capturedPhoto = editedImage

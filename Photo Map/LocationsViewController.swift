@@ -58,10 +58,12 @@ class LocationsViewController: UIViewController, UITableViewDelegate, UITableVie
         let lat = venue.value(forKeyPath: "location.lat") as! NSNumber
         let lng = venue.value(forKeyPath: "location.lng") as! NSNumber
 
-        let latString = "\(lat)"
-        let lngString = "\(lng)"
+      //  let latString = "\(lat)"
+       // let lngString = "\(lng)"
+        
+        delegate.locationsPickedLocation(controller: self, latitude: lat, longitude: lng)
 
-        print(latString + " " + lngString)
+        //print(latString + " " + lngString)
     }
     
     func searchBar(_ searchBar: UISearchBar, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
@@ -93,11 +95,11 @@ class LocationsViewController: UIViewController, UITableViewDelegate, UITableVie
                 if let data = dataOrNil {
                     if let responseDictionary = try! JSONSerialization.jsonObject(
                         with: data, options:[]) as? NSDictionary {
-                            NSLog("response: \(responseDictionary)")
+                          //  NSLog("response: \//(responseDictionary)")
                             self.results = responseDictionary.value(forKeyPath: "response.venues") as! NSArray
                             self.tableView.reloadData()
 
-                    }
+                    }else{}
                 }
         });
         task.resume()
