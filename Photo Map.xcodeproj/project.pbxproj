@@ -17,7 +17,7 @@
 		228D476519F5DAA000DE9903 /* Photo_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228D476419F5DAA000DE9903 /* Photo_MapTests.swift */; };
 		228D477019F5DAFF00DE9903 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228D476F19F5DAFF00DE9903 /* LocationsViewController.swift */; };
 		22BB9BD519F5DD21000048C2 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BB9BD419F5DD21000048C2 /* LocationCell.swift */; };
-		C0BB236311B5B261447DED51 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B190D8026AA9DA033871B1 /* Pods.framework */; };
+		7CA2324B42B76CECCCA17FCC /* Pods_Photo_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723B60D814294F1613172BF0 /* Pods_Photo_Map.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +34,7 @@
 		0BAC593E216304AE00017ED9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		11D16EF21BD08AAE00B6CBFE /* PhotoMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoMapViewController.swift; sourceTree = "<group>"; };
 		11D16EF41BD08ABE00B6CBFE /* FullImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullImageViewController.swift; sourceTree = "<group>"; };
+		12063B43D72D41C580E74B2D /* Pods-Photo Map.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photo Map.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Photo Map/Pods-Photo Map.debug.xcconfig"; sourceTree = "<group>"; };
 		12B190D8026AA9DA033871B1 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2258D28219F5E60100F013CE /* Photo Map-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Photo Map-Bridging-Header.h"; sourceTree = "<group>"; };
 		228D474919F5DA9F00DE9903 /* Photo Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,8 +48,8 @@
 		228D476419F5DAA000DE9903 /* Photo_MapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_MapTests.swift; sourceTree = "<group>"; };
 		228D476F19F5DAFF00DE9903 /* LocationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
 		22BB9BD419F5DD21000048C2 /* LocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
-		3798A91E53EF9F5C294484AF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		F5BE47FFEDE0C18F03BCCC32 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		64F024E3277DFE6500B15F56 /* Pods-Photo Map.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photo Map.release.xcconfig"; path = "Pods/Target Support Files/Pods-Photo Map/Pods-Photo Map.release.xcconfig"; sourceTree = "<group>"; };
+		723B60D814294F1613172BF0 /* Pods_Photo_Map.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Photo_Map.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BAC593F216304AE00017ED9 /* MapKit.framework in Frameworks */,
-				C0BB236311B5B261447DED51 /* Pods.framework in Frameworks */,
+				7CA2324B42B76CECCCA17FCC /* Pods_Photo_Map.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,8 +78,8 @@
 				228D474B19F5DA9F00DE9903 /* Photo Map */,
 				228D476119F5DAA000DE9903 /* Photo MapTests */,
 				228D474A19F5DA9F00DE9903 /* Products */,
-				A3344D46EEEB30E80081A84D /* Pods */,
 				C53175EB32E8EEC8585BFFB2 /* Frameworks */,
+				67D61E5A284FB713654507BC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,11 +150,11 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
-		A3344D46EEEB30E80081A84D /* Pods */ = {
+		67D61E5A284FB713654507BC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F5BE47FFEDE0C18F03BCCC32 /* Pods.debug.xcconfig */,
-				3798A91E53EF9F5C294484AF /* Pods.release.xcconfig */,
+				12063B43D72D41C580E74B2D /* Pods-Photo Map.debug.xcconfig */,
+				64F024E3277DFE6500B15F56 /* Pods-Photo Map.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -163,6 +164,7 @@
 			children = (
 				0BAC593E216304AE00017ED9 /* MapKit.framework */,
 				12B190D8026AA9DA033871B1 /* Pods.framework */,
+				723B60D814294F1613172BF0 /* Pods_Photo_Map.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -174,12 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 228D476819F5DAA000DE9903 /* Build configuration list for PBXNativeTarget "Photo Map" */;
 			buildPhases = (
-				EE4D80EC4F0AFE0686F9EC80 /* Check Pods Manifest.lock */,
+				1B4A02F4DE463155176CB0B6 /* [CP] Check Pods Manifest.lock */,
 				228D474519F5DA9F00DE9903 /* Sources */,
 				228D474619F5DA9F00DE9903 /* Frameworks */,
 				228D474719F5DA9F00DE9903 /* Resources */,
-				CAE9EE769558309B3532A020 /* Copy Pods Resources */,
-				FEABB81C4A0EC539FA57916D /* Embed Pods Frameworks */,
+				61F85C2D68B5F4C4CD5ABF89 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,49 +271,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		CAE9EE769558309B3532A020 /* Copy Pods Resources */ = {
+		1B4A02F4DE463155176CB0B6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Photo Map-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EE4D80EC4F0AFE0686F9EC80 /* Check Pods Manifest.lock */ = {
+		61F85C2D68B5F4C4CD5ABF89 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Photo Map/Pods-Photo Map-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FEABB81C4A0EC539FA57916D /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Photo Map/Pods-Photo Map-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -455,7 +455,7 @@
 		};
 		228D476919F5DAA000DE9903 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5BE47FFEDE0C18F03BCCC32 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 12063B43D72D41C580E74B2D /* Pods-Photo Map.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -471,7 +471,7 @@
 		};
 		228D476A19F5DAA000DE9903 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3798A91E53EF9F5C294484AF /* Pods.release.xcconfig */;
+			baseConfigurationReference = 64F024E3277DFE6500B15F56 /* Pods-Photo Map.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
