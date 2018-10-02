@@ -24,6 +24,8 @@ class LocationsViewController: UIViewController, UITableViewDelegate, UITableVie
 
     var results: NSArray = []
     
+    weak var delegate : LocationsViewControllerDelegate!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
